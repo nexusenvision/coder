@@ -10,7 +10,7 @@ export const Language = {
   buildInfoText: (buildInfo: TypesGen.BuildInfoResponse): string => {
     return `Coder ${buildInfo.version}`
   },
-  copyrightText: `Copyright \u00a9 ${new Date().getFullYear()} Coder Technologies, Inc.`,
+  copyrightText: `Copyright \u00a9 ${new Date().getFullYear()} Coder Technologies, Inc. & Nexus Envision Sdn. Bhd.`,
   reportBugLink: "Report an issue or share feedback",
   discordLink: "Join Coder on Discord",
 }

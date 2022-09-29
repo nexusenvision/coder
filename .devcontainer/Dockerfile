@@ -71,7 +71,7 @@ RUN bash -c ". $HOME/.bashrc \
 
 # install nodejs
 RUN bash -c "$(curl -fsSL https://deb.nodesource.com/setup_14.x)" \
-	&& apt-get install -y nodejs
+	&& apt-get install -y nodejs rsync
 
 # install zstd
 RUN bash -c "$(curl -fsSL https://raw.githubusercontent.com/horta/zstd.install/main/install)"
